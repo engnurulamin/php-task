@@ -1,0 +1,56 @@
+CONDITIONS - (Please follow carefully!)
+
+ 
+1. Do not edit index.php.
+ 
+2. Do not edit any files in "interfaces" folder.
+ 
+3. Only edit files in "classes" folder.
+ 
+4. Create a repository for this on Github.
+ 
+5. Send a link to your repository on Github when task is complete.
+
+
+========================================================================
+
+
+TASK:
+
+ 
+1. Open index.php from localhost (any server) on the browser.
+ 
+2. Fix code so that the "Fatal Error" does not occur anymore.
+ 
+3. Fix code so that "index.php" shows all tests as "Passed" and in green.
+ 
+4. Create a git commit for every fix individually.
+
+
+========================================================================
+
+
+
+
+
+
+
+
+
+
+=====================================================
+Purpose of this Task:
+  We want to see:
+              =
+1. How well you understand PHP and OOP concepts.
+    =
+2. How well you understand Test-Driven Development.
+ =   
+3. How well you follow instructions.
+                =
+4. How well you handle Git.
+                         =
+5. How well you structure your git commit messages. =
+=====================================================
+
+
