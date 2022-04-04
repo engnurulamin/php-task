@@ -7,22 +7,22 @@ class BankAccount implements IfaceBankAccount
 
     public function __construct(Money $openingBalance)
     {
-        $this->balance = $openingBalance;
+        $this->balance = $openingBalance->value();
     }
 
     public function balance()
-    {
+    {   
         return $this->balance;
     }
 
     public function deposit(Money $amount)
-    {
-        //implement this method
+    { 
+       return $this->balance += $amount->value();
     }
 
     public function transfer(Money $amount, BankAccount $account)
     {
-        //implement this method
+        
     }
 
     public function withdraw(Money $amount){
