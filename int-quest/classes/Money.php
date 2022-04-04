@@ -6,16 +6,17 @@ class Money
 
     public function __construct($amount)
     {
-        $this->amount = (float) $amount;
+      $this->amount = (float) $amount;
     }
-
+    
     public function value()
     {
-        return $this->amount;
+      return $this->amount;
     }
 
     public function __toString()
     {
-        return (string) $this->value();
+      return (string) $this->value();
+
     }
 }
