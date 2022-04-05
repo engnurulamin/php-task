@@ -18,7 +18,7 @@ function test($cond, $desc)
     } else {
         echo '<span style="color:red">Failed</span>';
     }
-
+    echo $cond;
     echo ' - ' . $desc;
 
     echo '<br><hr><br>';

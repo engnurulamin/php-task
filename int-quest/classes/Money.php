@@ -14,9 +14,9 @@ class Money
       return $this->amount;
     }
 
-    public function __toString()
-    {
-      return (string) $this->value();
+//     public function __toString()
+//     {
+//       return (string) $this->value();
 
-    }
+//     }
 }
