@@ -17,12 +17,13 @@ class BankAccount implements IfaceBankAccount
 
     public function deposit(Money $amount)
     { 
-       return $this->balance += $amount->value();
+        return $this->balance += $amount->value();
     }
 
     public function transfer(Money $amount, BankAccount $account)
     {
-        
+       $this->balance -= $amount->value(); 
+       $account->balance += $amount->value();  
     }
 
     public function withdraw(Money $amount){
